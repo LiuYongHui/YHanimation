@@ -1,0 +1,16 @@
+//
+//  YHanimation.pch
+//  YHanimation
+//
+//  Created by yonghui liu on 2020/6/5.
+//  Copyright © 2020 刘永慧. All rights reserved.
+//
+
+#ifndef YHanimation_pch
+#define YHanimation_pch
+
+#import <ReactiveObjC.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* YHanimation_pch */

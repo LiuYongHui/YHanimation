@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66F5770524A2ED21008E70AF /* CABasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F5770424A2ED21008E70AF /* CABasicAnimationViewController.m */; };
+		66F5770924A2EDAD008E70AF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F5770824A2EDAD008E70AF /* BaseViewController.m */; };
+		66F5770D24A2FCE3008E70AF /* UIViewAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F5770C24A2FCE3008E70AF /* UIViewAnimationController.m */; };
 		66FCC48324766888000F9E59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FCC48224766888000F9E59 /* AppDelegate.m */; };
 		66FCC48624766888000F9E59 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FCC48524766888000F9E59 /* SceneDelegate.m */; };
 		66FCC48924766888000F9E59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FCC48824766888000F9E59 /* ViewController.m */; };
@@ -14,9 +17,17 @@
 		66FCC48E2476688D000F9E59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FCC48D2476688D000F9E59 /* Assets.xcassets */; };
 		66FCC4912476688D000F9E59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FCC48F2476688D000F9E59 /* LaunchScreen.storyboard */; };
 		66FCC4942476688D000F9E59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FCC4932476688D000F9E59 /* main.m */; };
+		677DD52B338913638AFA68EA /* Pods_YHanimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD59E0DD8C5997F89897FFF9 /* Pods_YHanimation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		664E383B248A16960057128A /* YHanimation.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHanimation.pch; sourceTree = "<group>"; };
+		66F5770324A2ED21008E70AF /* CABasicAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CABasicAnimationViewController.h; sourceTree = "<group>"; };
+		66F5770424A2ED21008E70AF /* CABasicAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CABasicAnimationViewController.m; sourceTree = "<group>"; };
+		66F5770724A2EDAD008E70AF /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		66F5770824A2EDAD008E70AF /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		66F5770B24A2FCE3008E70AF /* UIViewAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationController.h; sourceTree = "<group>"; };
+		66F5770C24A2FCE3008E70AF /* UIViewAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationController.m; sourceTree = "<group>"; };
 		66FCC47E24766888000F9E59 /* YHanimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHanimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FCC48124766888000F9E59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		66FCC48224766888000F9E59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +40,9 @@
 		66FCC4902476688D000F9E59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66FCC4922476688D000F9E59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66FCC4932476688D000F9E59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CA10D65D3526FD7151C3F32 /* Pods-YHanimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHanimation.debug.xcconfig"; path = "Target Support Files/Pods-YHanimation/Pods-YHanimation.debug.xcconfig"; sourceTree = "<group>"; };
+		A5776280924E347101BBDE3A /* Pods-YHanimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YHanimation.release.xcconfig"; path = "Target Support Files/Pods-YHanimation/Pods-YHanimation.release.xcconfig"; sourceTree = "<group>"; };
+		DD59E0DD8C5997F89897FFF9 /* Pods_YHanimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YHanimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +50,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				677DD52B338913638AFA68EA /* Pods_YHanimation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		568B398FD5239B1FA19C93D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD59E0DD8C5997F89897FFF9 /* Pods_YHanimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		664E383A248A16160057128A /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				664E383B248A16960057128A /* YHanimation.pch */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
+		66F5770224A2EB39008E70AF /* CABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				66F5770324A2ED21008E70AF /* CABasicAnimationViewController.h */,
+				66F5770424A2ED21008E70AF /* CABasicAnimationViewController.m */,
+			);
+			path = CABasicAnimation;
+			sourceTree = "<group>";
+		};
+		66F5770624A2ED68008E70AF /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				66F5770724A2EDAD008E70AF /* BaseViewController.h */,
+				66F5770824A2EDAD008E70AF /* BaseViewController.m */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		66F5770A24A2FCBF008E70AF /* UIViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				66F5770B24A2FCE3008E70AF /* UIViewAnimationController.h */,
+				66F5770C24A2FCE3008E70AF /* UIViewAnimationController.m */,
+			);
+			path = UIViewAnimation;
+			sourceTree = "<group>";
+		};
 		66FCC47524766888000F9E59 = {
 			isa = PBXGroup;
 			children = (
 				66FCC48024766888000F9E59 /* YHanimation */,
 				66FCC47F24766888000F9E59 /* Products */,
+				B242E2354E83BDDE565DFF9B /* Pods */,
+				568B398FD5239B1FA19C93D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +121,10 @@
 		66FCC48024766888000F9E59 /* YHanimation */ = {
 			isa = PBXGroup;
 			children = (
+				66F5770A24A2FCBF008E70AF /* UIViewAnimation */,
+				66F5770624A2ED68008E70AF /* BaseViewController */,
+				66F5770224A2EB39008E70AF /* CABasicAnimation */,
+				664E383A248A16160057128A /* SupportFile */,
 				66FCC48124766888000F9E59 /* AppDelegate.h */,
 				66FCC48224766888000F9E59 /* AppDelegate.m */,
 				66FCC48424766888000F9E59 /* SceneDelegate.h */,
@@ -76,6 +140,15 @@
 			path = YHanimation;
 			sourceTree = "<group>";
 		};
+		B242E2354E83BDDE565DFF9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CA10D65D3526FD7151C3F32 /* Pods-YHanimation.debug.xcconfig */,
+				A5776280924E347101BBDE3A /* Pods-YHanimation.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66FCC4972476688D000F9E59 /* Build configuration list for PBXNativeTarget "YHanimation" */;
 			buildPhases = (
+				D32D76BE3744344195706511 /* [CP] Check Pods Manifest.lock */,
 				66FCC47A24766888000F9E59 /* Sources */,
 				66FCC47B24766888000F9E59 /* Frameworks */,
 				66FCC47C24766888000F9E59 /* Resources */,
+				C93561196D6E576A5BBD8B19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,15 +216,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C93561196D6E576A5BBD8B19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YHanimation/Pods-YHanimation-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YHanimation/Pods-YHanimation-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YHanimation/Pods-YHanimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D32D76BE3744344195706511 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YHanimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66FCC47A24766888000F9E59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F5770524A2ED21008E70AF /* CABasicAnimationViewController.m in Sources */,
+				66F5770924A2EDAD008E70AF /* BaseViewController.m in Sources */,
 				66FCC48924766888000F9E59 /* ViewController.m in Sources */,
 				66FCC48324766888000F9E59 /* AppDelegate.m in Sources */,
 				66FCC4942476688D000F9E59 /* main.m in Sources */,
 				66FCC48624766888000F9E59 /* SceneDelegate.m in Sources */,
+				66F5770D24A2FCE3008E70AF /* UIViewAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,35 +407,43 @@
 		};
 		66FCC4982476688D000F9E59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CA10D65D3526FD7151C3F32 /* Pods-YHanimation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U56G5XU82F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YHanimation/SupportFile/YHanimation.pch;
 				INFOPLIST_FILE = YHanimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinhe.company.YHanimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		66FCC4992476688D000F9E59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5776280924E347101BBDE3A /* Pods-YHanimation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = U56G5XU82F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YHanimation/SupportFile/YHanimation.pch;
 				INFOPLIST_FILE = YHanimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.xinhe.company.YHanimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
